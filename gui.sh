@@ -30,7 +30,7 @@ chmod +x ~/.config/polybar/launch.sh
 cp ~/git/configboi/config.conf ~/.config/neofetch/config.conf
 cp ~/git/configboi/fish_variables ~/.config/fish/
 cp ~/git/configboi/config.fish ~/.config/fish/
-cp ~/git/configboi/wp13 ~/Pictures
+cp ~/git/configboi/wp13.jpg ~/Pictures
 
 
 
