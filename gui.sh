@@ -9,9 +9,9 @@ git clone https://github.com/oh-my-fish/oh-my-fish
 cd ~/git/paru-bin
 makepkg -sri
 
-sudo pacman -S xorg-server xorg-xinit alacritty i3 htop ranger neofetch picom light pulseaudio pavucontrol alsa alsa-utils
+sudo pacman -S xorg-server xorg-xinit alacritty i3 htop ranger neofetch picom light pulseaudio pavucontrol alsa alsa-utils --needed --noconfirm
 
-paru -S polybar
+paru -S polybar --needed --noconfirm
 
 cp ~/git/configboi/config-i3 ~/.config/i3/config
 cp ~/git/configboi/config-polybar ~/.config/polybar/config
