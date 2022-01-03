@@ -238,7 +238,7 @@ bindsym $mod+Shift+t exec alacritty -e ranger
 bindsym $mod+Shift+l exec lock
 
 # wallpaper
-exec_always feh --bg-scale ~/Pictures/wp13.jpg
+exec_always feh --bg-scale ~/Pictures/wp12.jpg
 
 #picom
 exec_always --no-startup-id picom --experimental-backend -b 
