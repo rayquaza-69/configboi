@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 mkdir ~/git
 cd ~/git
+sudo pacman -S base-devel python --needed --noconfirm
 git clone https://aur.archlinux.org/paru-bin
 git clone https://github.com/rayquaza-69/configboi
 git clone https://github.com/oh-my-fish/oh-my-fish
