@@ -13,7 +13,7 @@ makepkg -sri --noconfirm
 sudo pacman -S xorg-server xorg-xinit alacritty i3 feh htop ranger neofetch picom light pulseaudio pavucontrol alsa alsa-utils --needed --noconfirm
 
 
-#paru -S polybar brave-bin
+paru -S polybar brave-bin ttf-hack ttf-inconsolata ttf-font-awesome-4 otf-font-awesome otf-font-awesome-4 --needed --noconfirm
 
 mkdir ~/.config/polybar
 mkdir ~/.config/alacritty
