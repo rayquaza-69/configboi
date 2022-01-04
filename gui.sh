@@ -10,7 +10,7 @@ git clone https://github.com/oh-my-fish/oh-my-fish
 cd ~/git/paru-bin
 makepkg -sri --noconfirm
 
-sudo pacman -S xorg-server xorg-xinit alacritty i3 feh htop ranger neofetch picom light pulseaudio pavucontrol alsa alsa-utils network-manager-applet --needed --noconfirm
+sudo pacman -S xorg-server xorg-xinit alacritty i3 feh htop ranger neofetch picom light pulseaudio pavucontrol alsa alsa-utils network-manager-applet polkit-gnome --needed --noconfirm
 
 
 paru -S polybar brave-bin ttf-hack ttf-inconsolata ttf-font-awesome-4 otf-font-awesome otf-font-awesome-4 --needed --noconfirm
